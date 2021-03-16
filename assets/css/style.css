@@ -290,7 +290,6 @@ footer h2{
         width: 100%;
         border-bottom: solid white;
         border-width: 10px;
-        
     }
 
     nav{
@@ -320,3 +319,4 @@ footer h2{
     #links li{
         padding-bottom: 25px;
     }
+}
