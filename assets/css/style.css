@@ -135,10 +135,6 @@ nav a:hover{
 
 
 
-#about{
-    display: flex;
-}
-
 
 
 
@@ -319,4 +315,30 @@ footer h2{
     #links li{
         padding-bottom: 25px;
     }
+}
+
+@media screen and (max-width: 375px){
+    body{
+        background-color: tomato;
+    }
+
+    .row{
+        display: block;
+        align-self: center;
+    }
+
+    #about2{
+        display: block;
+        text-align: center;
+    }
+
+    #about2 img{
+        float: none;
+        width: 100%;
+    }
+
+    #about2 p{
+        font-size: 10px;
+    }
+
 }
