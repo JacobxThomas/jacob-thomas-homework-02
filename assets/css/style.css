@@ -318,9 +318,11 @@ footer h2{
 }
 
 @media screen and (max-width: 375px){
-    body{
-        background-color: tomato;
+
+    *{
+        margin: 0;
     }
+    
 
     .row{
         display: block;
@@ -334,7 +336,8 @@ footer h2{
 
     #about2 img{
         float: none;
-        width: 100%;
+        width: 250px;
+        align-self: center;
     }
 
     #about2 p{
