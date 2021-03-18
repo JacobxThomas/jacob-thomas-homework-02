@@ -207,9 +207,11 @@ nav a:hover{
 /* Navigation Adjustments */
 
 @media screen and (max-width: 860px){
-    
+
     header h1, footer h2{
+        box-sizing: border-box;
         width: 100%;
+        border-right: none;
         border-bottom: solid white;
         border-width: 10px;
     }
@@ -234,9 +236,7 @@ nav a:hover{
         margin: 0;
     }
     
-    h1, h2{
-        width: 100%;
-    }
+    
 
     #about2{
         display: block;
