@@ -1,7 +1,7 @@
 /* Varibles */
 
 :root{
-    --light: rgb(253, 191, 168);
+    --light: rgb(236, 236, 236);
     --dark:  #3b3d3f;
 }
 
@@ -83,7 +83,7 @@ nav a:hover{
 .hero {
     height: 300px;
     width: 100%;
-    background-image: url("../images/image1.jpg");
+    background-image: url("../images/hero.jpg");
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -187,6 +187,10 @@ nav a:hover{
 .image{
     flex: 50%;
     padding: 5px;
+}
+
+#image2, #image4{
+    border-left: solid 0.01px rgb(219, 219, 219);
 }
 
 .image h4{
