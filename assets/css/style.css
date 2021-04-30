@@ -69,7 +69,7 @@ nav ul li {
 nav a {
     color: var(--dark);
     text-decoration: none;
-    margin-left: 60px;
+    margin-left: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: lighter;
 }
@@ -168,7 +168,7 @@ nav a:hover{
 #example1 h4{
     position: absolute;
     top: 75%;
-    left: 42%;
+    left: 35%;
     font-family: code1;
     background-color: var(--dark);
     color: var(--light);
@@ -240,7 +240,9 @@ nav a:hover{
         margin: 0;
     }
     
-    
+    #contact{
+        margin-right: 30px;
+    }
 
     #about2{
         display: block;
