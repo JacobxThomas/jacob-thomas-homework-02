@@ -12,11 +12,6 @@
     src: url("../fonts/code1.ttf")
 }
 
-@font-face{
-    font-family: code2;
-    src: url("../fonts/code2.ttf")
-}
-
 /* Everything */
 
 * {
